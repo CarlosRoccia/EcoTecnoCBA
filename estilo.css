@@ -1,3 +1,9 @@
 header {
     background-color: grey;
+    height: 100px;
+    text-align: center;
+    border: solid black 3px;
+    font-size: xx-large;
+    text-decoration-color: aqua;
+    
 }
