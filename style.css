@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header  {
+    background-image: url(https://img.freepik.com/vector-gratis/concepto-ecologia-tecnologica_23-2148437384.jpg?semt=ais_items_boosted&w=740);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+header h1 {
+  font-family: 'Montserrat', sans-serif; 
+  text-decoration: dashed;
+  font-size: 4.5rem;
+  color: #46f706; 
+  text-align: center;
+  
+  letter-spacing: 2px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    color:rgb(158, 25, 176);
+    text-decoration: none;
+    
+}
+
+nav ul li:hover {
+    background: #f1eeea;
+    border-radius: 0.5rem;
+}
+
+.historia {
+  width: 50%;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 2rem;
+  background-color: rgb(173, 221, 239);
+  align-items: center;
+  display: flex;
+  align-items: center;      /* Alinea texto e imagen verticalmente */
+  justify-content: space-between;
+  flex-wrap: wrap;       
+  
+}
+.pizq {
+  
+}
+.imgd {
+  height: auto;
+  size-adjust:inherit;
+}
