@@ -1,26 +1,28 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header  {
+header {
     background-image: url(https://img.freepik.com/vector-gratis/concepto-ecologia-tecnologica_23-2148437384.jpg?semt=ais_items_boosted&w=740);
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    
+
 }
+
 header h1 {
-  font-family: 'Montserrat', sans-serif; 
-  text-decoration: dashed;
-  font-size: 4.5rem;
-  color: #46f706; 
-  text-align: center;
-  
-  letter-spacing: 2px; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: dashed;
+    font-size: 4.5rem;
+    color: #46f706;
+    text-align: center;
+
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 nav {
     float: right;
 }
@@ -28,6 +30,8 @@ nav {
 nav ul {
     list-style: none;
     overflow: hidden;
+    background-color:grey;
+    border-radius: 0.5rem;
 }
 
 nav ul li {
@@ -39,32 +43,58 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 8px;
-    color:rgb(158, 25, 176);
+    color: rgb(243, 238, 244);
     text-decoration: none;
     
+
 }
 
 nav ul li:hover {
-    background: #f1eeea;
+    background: #1303ee;
     border-radius: 0.5rem;
 }
 
 .historia {
-  width: 50%;
-  font-family: 'Courier New', Courier, monospace;
-  line-height: 2rem;
-  background-color: rgb(173, 221, 239);
-  align-items: center;
-  display: flex;
-  align-items: center;      /* Alinea texto e imagen verticalmente */
-  justify-content: space-between;
-  flex-wrap: wrap;       
-  
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2rem;
+    background-color: rgb(173, 221, 239);
+    
+    
 }
-.pizq {
-  
-}
+
 .imgd {
-  height: auto;
-  size-adjust:inherit;
+    height: auto;
+    size-adjust: inherit;
+    display: flex;
+}
+
+footer {
+    background-color: rgb(62, 53, 53);
+    height: 7rem;
+    text-align: center;
+    font-style: italic;
+    color: azure;
+}
+
+.logf,
+.logi,
+.logt {
+
+    height: 2rem;
+    width: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.4rem;
+    align-items: center;
+}
+.bootcamp {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 2rem;
+  border-top: gray solid 0.5rem;
+  background-color: gainsboro;
+  width: 50%;
+}
+aside {
+  display:flex;
+  align-content: space-between;
 }
