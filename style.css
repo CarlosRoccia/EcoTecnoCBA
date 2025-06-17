@@ -30,7 +30,7 @@ nav {
 nav ul {
     list-style: none;
     overflow: hidden;
-    background-color:grey;
+    background-color: grey;
     border-radius: 0.5rem;
 }
 
@@ -45,7 +45,7 @@ nav ul li a {
     padding: 8px;
     color: rgb(243, 238, 244);
     text-decoration: none;
-    
+
 
 }
 
@@ -59,8 +59,8 @@ nav ul li:hover {
     font-family: 'Courier New', Courier, monospace;
     line-height: 2rem;
     background-color: rgb(173, 221, 239);
-    
-    
+
+
 }
 
 .imgd {
@@ -71,30 +71,42 @@ nav ul li:hover {
 
 footer {
     background-color: rgb(62, 53, 53);
-    height: 7rem;
+    height: 11rem;
     text-align: center;
     font-style: italic;
     color: azure;
 }
 
+.copyr {
+    font-size: 1rem;
+}
+.contacto {
+    font-size: 2rem;
+}
+
 .logf,
 .logi,
-.logt {
+.logt,
+.logw {
 
     height: 2rem;
     width: 2rem;
     margin-top: 2rem;
     border-radius: 0.4rem;
     align-items: center;
+    border-left: 5rem;
+    border-right: 9rem;
 }
+
 .bootcamp {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  line-height: 2rem;
-  border-top: gray solid 0.5rem;
-  background-color: gainsboro;
-  width: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2rem;
+    border-top: gray solid 0.5rem;
+    background-color: gainsboro;
+    width: 50%;
 }
+
 aside {
-  display:flex;
-  align-content: space-between;
+    display: flex;
+    align-content: space-between;
 }
