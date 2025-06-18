@@ -87,7 +87,8 @@ footer {
 .logf,
 .logi,
 .logt,
-.logw {
+.logw,
+.logm {
 
     height: 2rem;
     width: 2rem;
